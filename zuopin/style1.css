@@ -1,0 +1,365 @@
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 12px;
+    color: #000;
+    font-family: "宋体";
+    background: #CCC;
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+#headerWrap {
+    width: 100%;
+    height: 105px;
+    background-color: #FFF
+}
+
+#header {
+    width: 1000px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+#navWrap {
+    width: 100%;
+    height: 35px;
+    /* background: url(navbg1.jpg) */
+    background-color: #CCC;
+}
+
+#nav {
+    width: 1000px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#nav ul li {
+    width: 125px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+}
+
+#nav ul li a {
+    display: block;
+    width: 125px;
+    height: 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    background: #302e2e;
+    text-decoration: none;
+}
+
+.nav ul li .dropbox{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 180px;
+    display: none;
+    padding-top: 10px;
+}
+.nav ul li .dropbox .inner{
+    background-color: #ccc;
+    padding-left: 20px;
+}
+
+.nav ul li .dropbox a{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    text-align: left;
+}
+.nav ul li .dropbox a:hover{
+    background-color: pink;
+}
+
+#banner {
+    width: 1000px;
+    height: 272px;
+    margin: 0 auto
+}
+
+#content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #FFF
+}
+
+#left {
+    width: 240px;
+    height: auto;
+    float: left;
+}
+
+#left h2 {
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    background: url(titlebg1.gif) no-repeat left bottom;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#left ul {
+    width: 230px;
+    height: auto;
+    padding-left: 10px;
+}
+
+#left ul li {
+    width: 220px;
+    height: 28px;
+    line-height: 28px;
+    background: url(arror.gif) no-repeat left center;
+    padding-left: 10px;
+    border-bottom: 1px dashed #666666
+}
+
+#right {
+    width: 750px;
+    height: auto;
+    float: right;
+}
+
+#productsList h2 {
+    width: 740px;
+    height: 30px;
+    line-height: 30px;
+    background: url(titlebg2.gif) no-repeat left bottom;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#productsList h2 span a {
+    font-size: 12px;
+    padding-left: 600px;
+    font-weight: normal;
+}
+
+#productsList ul {
+    width: 710px;
+    height: 380px;
+    padding: 20px;
+}
+
+#productsList ul li {
+    width: 176px;
+    height: 190px;
+    float: left;
+}
+
+#productsList ul li img {
+    width: 170px;
+    height: 126px;
+    border: 1px solid #CCC;
+    margin: 2px;
+}
+
+#productsList ul li p.text {
+    text-align: center;
+    line-height: 28px;
+}
+
+#boxBot {
+    width: 1000px;
+    overflow: hidden;
+    margin: 5px auto 0;
+    background-color: #FFF
+}
+
+#botLeft {
+    width: 299px;
+    height: 200px;
+    float: left;
+    border-right: 1px solid #AAA;
+}
+
+#botRight {
+    width: 289px;
+    height: 200px;
+    float: left;
+    border-left: 1px solid #AAA;
+    padding-left: 10px;
+}
+
+#botM {
+    width: 380px;
+    height: 200px;
+    margin: 0 10px;
+    float: left;
+}
+
+#botM h2 {
+    width: 370px;
+    height: 30px;
+    line-height: 30px;
+    background: url(titlebg4.gif) no-repeat left bottom;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#botM h2 span a {
+    font-size: 12px;
+    padding-left: 250px;
+    font-weight: normal;
+}
+
+#botLeft h2,
+#botRight h2 {
+    width: 279px;
+    height: 30px;
+    line-height: 30px;
+    background: url(titlebg3.gif) no-repeat left bottom;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.intr {
+    font-size: 13px;
+    line-height: 25px;
+    text-indent: 2em;
+    padding: 10px;
+}
+
+#botLeft span {
+    color: #c20928;
+    font-weight: bold;
+}
+
+#botLeft span a {
+    color: #c20928;
+    font-weight: normal;
+}
+
+#botRight img {
+    width: 273px;
+    height: 164px;
+    border: 1px solid #000;
+    margin: 2px;
+}
+
+#botM ul {
+    width: 280px;
+    height: 180px;
+    padding: 10px;
+}
+
+#botM ul li {
+    width: 270px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    background: url(dot.gif) no-repeat left center
+}
+
+#sep {
+    width: 100%;
+    height: 10px;
+    background-color: #424242;
+    margin: 5px auto 0
+}
+
+#footer {
+    width: 1000px;
+    height: 80px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 auto
+}
+
+/*栏目页*/
+#leftBot img {
+    width: 232px;
+    height: 172px;
+    border: 1px solid #000;
+    margin: 3px;
+}
+
+#lright {
+    width: 750px;
+    height: auto;
+    float: right;
+}
+
+#lright h2 {
+    width: 740px;
+    height: 30px;
+    line-height: 30px;
+    background: url(titleBG22.gif) no-repeat left bottom;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+#newsList ul {
+    width: 730px;
+    height: auto;
+    padding: 10px;
+}
+
+#newsList ul li {
+    width: 720px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    background: url(dot.gif) no-repeat left center;
+    border-bottom: 1px dotted #E8E8E8
+}
+
+#newsList ul li a {
+    font-size: 14px;
+    color: #333;
+}
+
+/*内容页*/
+#newsDetails h3 {
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+#newsDetails h4 {
+    font-size: 12px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+#newsDetails p img {
+    width: 400px;
+    height: 300px;
+    padding: 0 0 20px 160px;
+}
